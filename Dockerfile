@@ -13,5 +13,6 @@ RUN gem install nokogiri -v 1.6.2.1 -- --use-system-libraries
 # --platform=ruby
 RUN bundle install
 
+EXPOSE 3000
 
 CMD rails s -b 0.0.0.0
