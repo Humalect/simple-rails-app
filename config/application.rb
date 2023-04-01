@@ -10,6 +10,8 @@ module Tutorial
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    # config.hosts << "rails.march.humalect.dev"
+
 
     # Configuration for the application, engines, and railties goes here.
     #
@@ -20,3 +22,4 @@ module Tutorial
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+
